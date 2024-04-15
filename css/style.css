@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.shadows-box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 65%;
+}
+.shadows{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+h1 ,.parag{
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+input
+{
+    background-color: transparent !important;
+    color: #fff !important;
+    overflow: visible;
+}
+::placeholder{
+    color: #cfd6ddc7 !important;
+   
+}
+input:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+ p a{
+    text-decoration: none;
+}
+ p a:hover{
+    text-decoration: underline; 
+}
+.btn-outline-info:hover{
+    color: #fff;
+}
+.navs{
+   background: #24353f !important;
+  
+}
+a button{
+    color: rgba(255, 255, 255, .5) !important;
+}
+a button:hover{
+    color: white !important;
+}
+.paragraph{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+   transform: translate(-50% ,-50%); 
+}
